@@ -1,12 +1,16 @@
 import { T, Num, Var, Plural } from "gt-next";
+import Link from "next/link";
 import type { Book } from "@/data/books";
 
 export default function BookCard({ book }: { book: Book }) {
   return (
-    <div className="rounded-lg border border-neutral-800 bg-neutral-900 p-6 hover:border-neutral-700 transition-colors">
+    <Link
+      href={`/book/${book.slug}`}
+      className="block rounded-lg border border-neutral-800 bg-neutral-900 p-6 hover:border-neutral-600 transition-colors group"
+    >
       <div className="flex items-start justify-between mb-3">
         <div className="flex-1 min-w-0">
-          <h3 className="text-lg font-semibold text-neutral-100 truncate">
+          <h3 className="text-lg font-semibold text-neutral-100 truncate group-hover:text-white transition-colors">
             <T>
               <Var>{book.title}</Var>
             </T>
@@ -73,6 +77,6 @@ export default function BookCard({ book }: { book: Book }) {
           </T>
         </span>
       </div>
-    </div>
+    </Link>
   );
 }
