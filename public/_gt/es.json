@@ -1,0 +1,165 @@
+{
+  "0eb4d407a9af1b83": "Un catálogo de libros multilingüe que muestra la internacionalización con General Translation.",
+  "2b1f49a01ea57084": {
+    "d": {
+      "b": {
+        "fiction": "Ficción",
+        "history": "Historial",
+        "nonfiction": "No ficción",
+        "philosophy": "Filosofía",
+        "science": "Ciencias"
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "36e108cbb692c363": [
+    "por ",
+    {
+      "i": 1,
+      "k": "_gt_value_1",
+      "v": "v"
+    }
+  ],
+  "44797d9b073bf3ef": "Esta es una aplicación de ejemplo creada con General Translation para demostrar la internacionalización en Next.js.",
+  "5391d41d9358168b": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " páginas"
+  ],
+  "5af1ab824d6ea2ea": "Explora la colección",
+  "635a92b7aa4fdc94": "Un catálogo seleccionado de libros de ficción, ciencia, historia y filosofía. Todo el texto de esta página está traducido con General Translation.",
+  "651e42575a1fb596": {
+    "d": {
+      "b": {
+        "one": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " reseña"
+          ],
+          "i": 2,
+          "t": "C2"
+        },
+        "other": {
+          "c": [
+            {
+              "i": 3,
+              "k": "_gt_n_3",
+              "v": "n"
+            },
+            " reseñas"
+          ],
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
+  "6dca4d677ec770ee": "Biblioteca de libros",
+  "834bcef94019560e": [
+    "Publicado ",
+    {
+      "i": 1,
+      "k": "_gt_date_1",
+      "v": "d"
+    }
+  ],
+  "9013d0cbb81ecf1b": "Biblioteca de libros | General Translation",
+  "933fa7740fe8c681": {
+    "i": 1,
+    "k": "_gt_value_1",
+    "v": "v"
+  },
+  "980341ff8f49b488": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " / 5"
+  ],
+  "9d89ee1050f146b4": {
+    "d": {
+      "b": {
+        "no": "Retirado",
+        "yes": "Disponible"
+      },
+      "t": "b"
+    },
+    "i": 1,
+    "t": "Branch"
+  },
+  "b9c63f45bcfee72f": [
+    "Idioma original: ",
+    {
+      "i": 1,
+      "k": "_gt_value_1",
+      "v": "v"
+    }
+  ],
+  "d0faa8cdf4f5f6e3": {
+    "c": [
+      {
+        "i": 2,
+        "k": "_gt_n_2",
+        "v": "n"
+      },
+      " reseñas"
+    ],
+    "d": {
+      "b": {
+        "many": [
+          {
+            "i": 2,
+            "k": "_gt_n_2",
+            "v": "n"
+          },
+          " de reseñas"
+        ],
+        "other": [
+          {
+            "i": 2,
+            "k": "_gt_n_2",
+            "v": "n"
+          },
+          " reseñas"
+        ],
+        "singular": {
+          "c": "1 reseña",
+          "i": 2,
+          "t": "C2"
+        }
+      },
+      "t": "p"
+    },
+    "i": 1,
+    "t": "Plural"
+  },
+  "f8d864d6ba02982c": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " títulos en la colección"
+  ],
+  "fd1c754a97d3437c": [
+    {
+      "i": 1,
+      "k": "_gt_n_1",
+      "v": "n"
+    },
+    " disponibles actualmente"
+  ]
+}
