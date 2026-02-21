@@ -3,7 +3,7 @@ import { getGT } from "gt-next/server";
 import { LocaleSelector } from "gt-next";
 import BookCard from "@/components/BookCard";
 import GenreFilter from "@/components/GenreFilter";
-import { books, getGenres } from "@/data/books";
+import { getBooks, getGenres } from "@/data/books";
 
 export default async function Home({
   searchParams,
@@ -13,7 +13,8 @@ export default async function Home({
   const gt = await getGT();
   const { genre } = await searchParams;
 
-  const genres = getGenres();
+  const books = getBooks(gt);
+  const genres = getGenres(books);
   const filteredBooks = genre
     ? books.filter((b) => b.genre === genre)
     : books;

@@ -11,9 +11,7 @@ export default function BookCard({ book }: { book: Book }) {
       <div className="flex items-start justify-between mb-3">
         <div className="flex-1 min-w-0">
           <h3 className="text-lg font-semibold text-neutral-100 truncate group-hover:text-white transition-colors">
-            <T>
-              <Var>{book.title}</Var>
-            </T>
+            {book.title}
           </h3>
           <p className="text-sm text-neutral-400 mt-1">
             <T>
@@ -22,24 +20,16 @@ export default function BookCard({ book }: { book: Book }) {
           </p>
         </div>
         <span className="ml-3 shrink-0 rounded-full bg-neutral-800 px-3 py-1 text-xs font-medium text-neutral-300">
-          <T>
-            <Var>{book.year}</Var>
-          </T>
+          {book.year}
         </span>
       </div>
 
       <p className="text-sm text-neutral-400 leading-relaxed mb-4">
-        <T>
-          <Var>{book.description}</Var>
-        </T>
+        {book.description}
       </p>
 
       <div className="flex items-center justify-between text-xs text-neutral-500">
-        <span>
-          <T>
-            <Var>{book.genre}</Var>
-          </T>
-        </span>
+        <span>{book.genre}</span>
         <span>
           <T>
             <Num>{book.pages}</Num> pages

@@ -1,7 +1,6 @@
 "use client";
 
 import { useGT } from "gt-next/client";
-import { T, Var } from "gt-next";
 
 export default function GenreFilter({
   genres,
@@ -34,9 +33,7 @@ export default function GenreFilter({
               : "bg-transparent text-neutral-400 border-neutral-700 hover:border-neutral-500"
           }`}
         >
-          <T>
-            <Var>{genre}</Var>
-          </T>
+          {genre}
         </a>
       ))}
     </div>

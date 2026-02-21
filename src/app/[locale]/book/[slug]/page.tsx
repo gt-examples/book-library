@@ -3,9 +3,11 @@ import { getGT } from "gt-next/server";
 import { LocaleSelector } from "gt-next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { books, getBookBySlug, getRelatedBooks } from "@/data/books";
+import { getBooks, getBookBySlug, getRelatedBooks } from "@/data/books";
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const identity = (s: string) => s;
+  const books = getBooks(identity);
   return books.map((book) => ({ slug: book.slug }));
 }
 
@@ -16,13 +18,14 @@ export default async function BookDetail({
 }) {
   const { slug } = await params;
   const gt = await getGT();
-  const book = getBookBySlug(slug);
+  const books = getBooks(gt);
+  const book = getBookBySlug(books, slug);
 
   if (!book) {
     notFound();
   }
 
-  const related = getRelatedBooks(book);
+  const related = getRelatedBooks(books, book);
 
   return (
     <div className="min-h-screen bg-neutral-950 font-sans text-neutral-200">
@@ -75,7 +78,7 @@ export default async function BookDetail({
 
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-neutral-100 mb-2">
-            <T><Var>{book.title}</Var></T>
+            {book.title}
           </h1>
           <p className="text-lg text-neutral-400">
             <T>by <Var>{book.author}</Var></T>
@@ -84,16 +87,16 @@ export default async function BookDetail({
 
         <div className="flex flex-wrap gap-3 mb-8">
           <span className="px-3 py-1 text-xs font-medium rounded-full bg-neutral-800 text-neutral-300">
-            <T><Var>{book.genre}</Var></T>
+            {book.genre}
           </span>
           <span className="px-3 py-1 text-xs font-medium rounded-full bg-neutral-800 text-neutral-300">
-            <T><Var>{book.year}</Var></T>
+            {book.year}
           </span>
           <span className="px-3 py-1 text-xs font-medium rounded-full bg-neutral-800 text-neutral-300">
             <T><Num>{book.pages}</Num> pages</T>
           </span>
           <span className="px-3 py-1 text-xs font-medium rounded-full bg-neutral-800 text-neutral-300">
-            <T>Estimated reading time: <Var>{book.readingTime}</Var></T>
+            {book.readingTime}
           </span>
         </div>
 
@@ -131,7 +134,7 @@ export default async function BookDetail({
             {gt("Synopsis")}
           </h2>
           <p className="text-sm text-neutral-400 leading-relaxed">
-            <T><Var>{book.synopsis}</Var></T>
+            {book.synopsis}
           </p>
         </section>
 
@@ -140,7 +143,7 @@ export default async function BookDetail({
             {gt("About the author")}
           </h2>
           <p className="text-sm text-neutral-400 leading-relaxed">
-            <T><Var>{book.authorBio}</Var></T>
+            {book.authorBio}
           </p>
         </section>
 
@@ -158,14 +161,14 @@ export default async function BookDetail({
                 >
                   <div>
                     <h3 className="text-sm font-semibold text-neutral-100">
-                      <T><Var>{rel.title}</Var></T>
+                      {rel.title}
                     </h3>
                     <p className="text-xs text-neutral-500 mt-0.5">
                       <T>by <Var>{rel.author}</Var></T>
                     </p>
                   </div>
                   <span className="text-xs text-neutral-500">
-                    <T><Var>{rel.genre}</Var></T>
+                    {rel.genre}
                   </span>
                 </Link>
               ))}

@@ -1,6 +1,16 @@
 {
+  "0354bb1fc5267ecb": "Toru Okada es un joven desempleado que lleva una vida tranquila en un barrio residencial de Tokio cuando su gato desaparece. Su esposa Kumiko se vuelve cada vez más distante y luego también ella desaparece. Mientras Toru los busca a ambos, es arrastrado a un laberinto de encuentros extraños: un par de hermanas psíquicas, una vecina adolescente que observa el callejón desde el muro de su jardín, un político siniestro que quizá tenga la clave de la desaparición de Kumiko y un veterano de la Segunda Guerra Mundial cuyo estremecedor relato de la campaña de Manchuria revela inquietantes conexiones con el presente. Toru desciende a un pozo seco para meditar y entra en el pasillo de un hotel de otro mundo donde la realidad se deforma. La novela entreteje la pérdida personal con el trauma histórico, explorando cómo la violencia y el poder corrompen a lo largo de las generaciones y cómo las personas corrientes pueden encontrar un valor extraordinario en las circunstancias más oscuras.",
+  "0973be85ea6ffe96": "Ciudades invisibles",
+  "0a4584d31fec2e3f": "La novela está estructurada como una conversación entre el explorador veneciano Marco Polo y el envejecido emperador mongol Kublai Khan. Polo describe cincuenta y cinco ciudades que ha visitado, todas ellas imposibles y oníricas. Hay ciudades construidas sobre pilotes en el vacío, ciudades donde los muertos viven bajo los vivos, ciudades hechas enteramente de tuberías y ciudades que existen solo en el acto de ser descritas. Las ciudades se organizan en categorías temáticas: ciudades y memoria, ciudades y deseo, ciudades y signos, ciudades sutiles, ciudades comerciales, ciudades y ojos, ciudades y nombres, ciudades y los muertos, ciudades y el cielo, y ciudades ocultas. A medida que avanzan las conversaciones, se hace evidente que todas las ciudades pueden ser reflejos de una sola ciudad, quizá la propia Venecia. El libro es una meditación sobre el lenguaje, la imaginación y la imposibilidad de conocer verdaderamente un lugar, estructurada con precisión matemática y gracia poética.",
   "0eb4d407a9af1b83": "Un catálogo multilingüe de libros que demuestra la internacionalización con General Translation.",
   "0f53f3ae31a36f19": "Sinopsis",
+  "10a47738ab59cafa": "Albert Camus (1913-1960) fue un filósofo, escritor y periodista franco-argelino. Recibió el Premio Nobel de Literatura en 1957. Figura central del absurdismo, Camus exploró el conflicto entre el deseo humano de encontrar sentido y la silenciosa indiferencia del universo. Nacido en la Argelia francesa en una familia pobre, cobró relevancia en los círculos intelectuales de París junto a figuras como Jean-Paul Sartre, aunque más tarde ambos se convirtieron en rivales.",
+  "18c9e0d96d6112a1": "Italo Calvino (1923-1985) fue un periodista y escritor italiano de relatos y novelas. Considerado uno de los autores italianos de ficción más importantes del siglo XX, fue conocido por sus narraciones imaginativas y estructuralmente innovadoras. Nacido en Cuba y criado en Italia, fue miembro de la Resistencia italiana durante la Segunda Guerra Mundial. Sus obras posteriores exploraron cada vez más los límites entre la literatura, la ciencia y la filosofía.",
+  "1edfd04fe6f254b0": "La historia multigeneracional de la familia Buendía en el mítico pueblo de Macondo, que combina realidad y fantasía en una extensa narración sobre el amor, la guerra y el destino.",
+  "20063648ece4a410": "Toni Morrison (1931-2019) fue una novelista, ensayista y profesora estadounidense. En 1993 recibió el Premio Nobel de Literatura, convirtiéndose en la primera mujer afroamericana en recibir este reconocimiento. Sus novelas exploran la identidad afroamericana, la historia y el legado de la esclavitud con un lenguaje poético y una sinceridad implacable. Trabajó como editora en Random House, donde impulsó la obra de autores afroamericanos, antes de que su propia carrera literaria la llevara a la fama internacional.",
+  "261ca1f4fe998404": "Un hombre desempleado busca a su gato perdido y a su esposa desaparecida, descendiendo a un inframundo surrealista conectado con atrocidades bélicas olvidadas.",
+  "2b9e199fa8c7fc06": "Toru Watanabe, ahora con treinta y siete años, oye en un avión la canción de los Beatles «Norwegian Wood» y se ve transportado de vuelta a sus años universitarios en el Tokio de los sesenta. Recuerda el profundo vínculo que lo unía a Naoko, la novia de su mejor amigo de la infancia, Kizuki, que se quitó la vida a los diecisiete años. Tras la muerte de Kizuki, Toru y Naoko se acercan, unidos por el duelo compartido. Pero la salud mental de Naoko se deteriora y ella se retira a un sanatorio en las montañas. Mientras tanto, Toru conoce a Midori, una joven vivaz e irreverente que encarna la vitalidad y la posibilidad de seguir adelante. Dividido entre su lealtad a Naoko y los sentimientos cada vez más fuertes que tiene por Midori, Toru debe encontrar un delicado equilibrio entre honrar a los muertos y abrazar a los vivos. La novela es una meditación sobre la naturaleza de la pérdida, la persistencia de la memoria y el doloroso proceso de hacerse adulto.",
+  "30d59c946b8c4793": "11 horas",
   "36e108cbb692c363": [
     "por ",
     {
@@ -9,8 +19,12 @@
       "v": "v"
     }
   ],
+  "401a89c39cd980a0": "Cien años de soledad",
   "44797d9b073bf3ef": "Esta es una aplicación de ejemplo creada con General Translation para demostrar la internacionalización en Next.js.",
+  "4734977679630faf": "Una nostálgica historia de pérdida, sexualidad y maduración, ambientada en el Tokio de las protestas estudiantiles de los años sesenta.",
+  "49dfa0a53eb4c92c": "Realismo mágico",
   "4c9c7f038f45952d": "Libros relacionados",
+  "4fcea79d0547dabe": "Ficción literaria",
   "5391d41d9358168b": [
     {
       "i": 1,
@@ -28,17 +42,34 @@
     },
     " títulos mostrados"
   ],
+  "57fa4f28b94939b6": "Gabriel García Márquez (1927-2014) fue un novelista, autor de cuentos y periodista colombiano. Recibió el Premio Nobel de Literatura en 1982. Ampliamente considerado como uno de los autores más importantes del siglo XX, popularizó el estilo literario conocido como realismo mágico. Nacido en Aracataca, Colombia, pasó gran parte de su vida profesional en México y Europa, y recurrió a sus recuerdos de infancia y a la historia latinoamericana para crear sus mundos de ficción.",
   "5af1ab824d6ea2ea": "Explorar la colección",
+  "61a8d17aec93719d": "Ficción filosófica",
   "635a92b7aa4fdc94": "Un catálogo seleccionado de libros de ficción, ciencia, historia y filosofía. Todo el texto de esta página está traducido con General Translation.",
-  "6dca4d677ec770ee": "Biblioteca de libros",
+  "6dca4d677ec770ee": "Colección de libros",
+  "75d704423da1d143": "La novela sigue a siete generaciones de la familia Buendía en el pueblo colombiano ficticio de Macondo. Fundado por José Arcadio Buendía y su esposa Úrsula Iguarán, el pueblo crece de una aldea primitiva a un asentamiento bullicioso, solo para acabar sumido en la ruina. A través de los nombres recurrentes y los destinos cíclicos de los descendientes de los Buendía, García Márquez teje un tapiz de pasión, obsesión y soledad. Las guerras civiles arrasan, las plantaciones bananeras surgen y caen, y acontecimientos sobrenaturales se desarrollan a la par de la vida cotidiana. La novela explora cómo la historia se repite, cómo la memoria y el olvido moldean la identidad y cómo la búsqueda del conocimiento y el amor puede conducir tanto al asombro como a la destrucción. Al final, el último Buendía descifra un conjunto de antiguas profecías que anuncian toda la historia de la familia, leyéndolas mientras un huracán borra a Macondo de la faz de la tierra.",
+  "776c8ca6744acaa6": "Meursault, un franco-argelino, recibe un telegrama en el que se le comunica que su madre ha muerto. Asiste al funeral pero muestra poca emoción y, al día siguiente, comienza una relación informal con Marie. Cuando su vecino Raymond lo involucra en un conflicto con un grupo de árabes, Meursault termina disparando y matando a uno de ellos en una playa soleada, aparentemente sin motivo. Durante el juicio, la acusación se centra menos en el crimen en sí y más en la aparente falta de emotividad de Meursault en el funeral de su madre, su negativa a llorar y su incapacidad para manifestar un duelo convencional. Condenado a muerte, Meursault finalmente halla la paz al aceptar la indiferencia del universo. La novela es un texto fundamental de la filosofía del absurdo, que cuestiona la exigencia social de conformidad emocional y la búsqueda de sentido en un mundo que no ofrece ninguno.",
+  "7d4532ba0a36a4c7": "4 horas",
+  "871fc059edd87620": "14 horas",
+  "87a9ad534a6412d8": "Ficción surrealista",
+  "8bce7031c85921c2": "10 horas",
   "9013d0cbb81ecf1b": "Biblioteca de libros | General Translation",
-  "933fa7740fe8c681": {
-    "i": 1,
-    "k": "_gt_value_1",
-    "v": "v"
-  },
+  "92b109562d7ecd63": "Marco Polo le describe a Kublai Kan las ciudades fantásticas que ha visitado; cada una es una exploración de la memoria, el deseo y la naturaleza de la vida urbana.",
+  "934e0971269eb72c": "La tragedia de un orgulloso guerrero igbo cuyo mundo se hace añicos con la llegada de colonos y misioneros europeos a la región que hoy es Nigeria a finales del siglo XIX.",
   "977c8dc70aaa5186": "Volver a la colección",
+  "98fb0621cefb8acb": "Ficción histórica",
+  "a2a088fcfc4ba3e0": "5 horas",
+  "a36fb60d180999ad": "Ambientada en 1873, la novela sigue a Sethe, una mujer que fue esclavizada y que vive en Cincinnati, Ohio, con su hija Denver. Su casa, en el número 124 de Bluestone Road, está embrujada por el fantasma de la primera hija de Sethe, que murió siendo un bebé. Cuando Paul D, un antiguo compañero esclavo suyo de la plantación llamada Sweet Home, llega, consigue expulsar al fantasma. Pero pronto aparece una misteriosa joven que se hace llamar Beloved, y Sethe llega a convencerse de que es su hija muerta que ha regresado en carne y hueso. A medida que la presencia de Beloved se vuelve más invasiva, la novela despliega los horribles recuerdos de Sweet Home: la brutalidad de los amos esclavistas, la desesperada huida de Sethe estando embarazada y el acto innombrable que cometió para evitar que sus hijos cayeran en la esclavitud. La historia examina cómo el trauma de la esclavitud persiste a través de las generaciones y cómo el acto de recordar puede ser a la vez necesario y devastador.",
+  "aabd116f9ec02d46": "Haruki Murakami (nacido en 1949) es un escritor japonés. Sus novelas, ensayos y relatos breves han sido éxitos de ventas en Japón y a nivel internacional, y su obra se ha traducido a cincuenta idiomas. Su estilo combina elementos de la cultura occidental y japonesa, y a menudo presenta narraciones surrealistas y oníricas. Antes de convertirse en escritor a tiempo completo, fue propietario de un bar de jazz en Tokio, y la música sigue siendo un motivo recurrente en su obra.",
+  "aac487d5d1b57260": "Chinua Achebe (1930-2013) fue un novelista, poeta y crítico nigeriano. A menudo llamado el padre de la literatura africana moderna, escribió en inglés para llegar al público más amplio posible y recuperar la narrativa sobre África de manos de los escritores coloniales. Su primera novela, Things Fall Apart, ha vendido más de veinte millones de ejemplares y ha sido traducida a más de cincuenta idiomas. Pasó sus últimos años enseñando en universidades de Nigeria y de Estados Unidos.",
+  "aacf10768bfd0bb8": "20 horas",
+  "ac7b83bc17c1db53": "El extranjero",
+  "acb763929e937f8f": "Una mujer que fue esclavizada está atormentada por el fantasma de su hija muerta y debe enfrentarse al trauma de la esclavitud y al poder de la memoria.",
   "b205b112442b93c1": "Todos los géneros",
+  "b86035686c0d4248": "Ficción posmoderna",
+  "be6bb1545899ed29": "Ficción poscolonial",
+  "cb3d390992c293e3": "Todo se desmorona",
+  "d07fce60be3821d4": "Okonkwo es un guerrero y líder respetado en el pueblo igbo de Umuofia, en lo que hoy es el sureste de Nigeria. Decidido a superar la herencia de su padre perezoso y endeudado, Okonkwo se forja una reputación gracias a su trabajo duro, su habilidad como luchador y su temperamento feroz. Toma varias esposas, acumula riqueza y se convierte en uno de los hombres más poderosos del clan. Pero su orgullo inflexible lo lleva a una serie de desgracias: mata accidentalmente a un miembro del clan y es desterrado durante siete años. Durante su ausencia, llegan misioneros británicos y administradores coloniales, convierten a los aldeanos al cristianismo y socavan las formas tradicionales de gobierno. Cuando Okonkwo regresa, encuentra una comunidad fracturada e intenta organizar la resistencia, pero las viejas costumbres no pueden hacer frente al nuevo orden. La novela es un hito de la literatura africana y ofrece un retrato complejo de la sociedad igbo precolonial y del devastador choque cultural provocado por el colonialismo.",
   "d0faa8cdf4f5f6e3": {
     "c": [
       {
@@ -77,12 +108,9 @@
     "i": 1,
     "t": "Plural"
   },
-  "eaa92234045eda1f": [
-    "Tiempo de lectura estimado: ",
-    {
-      "i": 1,
-      "k": "_gt_value_1",
-      "v": "v"
-    }
-  ]
+  "d73eab8e2e7e9060": "Norwegian Wood",
+  "e88273f37d836265": "La historia de un hombre emocionalmente distante que comete un asesinato aparentemente sin motivo y se enfrenta a un juicio, explorando temas de absurdismo y el sentido de la existencia.",
+  "ee27636607547ed7": "The Wind-Up Bird Chronicle",
+  "f79db0bc06d64a74": "7 horas",
+  "fb2e46a0bca72ed0": "Beloved"
 }
