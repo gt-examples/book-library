@@ -10,7 +10,7 @@ export default function GenreFilter({
   genres: string[];
   selected: string | null;
 }) {
-  const t = useGT();
+  const gt = useGT();
 
   return (
     <div className="flex flex-wrap gap-2 mb-8">
@@ -22,7 +22,7 @@ export default function GenreFilter({
             : "bg-transparent text-neutral-400 border-neutral-700 hover:border-neutral-500"
         }`}
       >
-        {t("All genres")}
+        {gt("All genres")}
       </a>
       {genres.map((genre) => (
         <a
